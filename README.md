@@ -8,8 +8,6 @@ I also enjoy playing with **Go** in my free time.
 
 **Networks**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/k%C3%A9vyn-fyleyssant-3947ba1b7)
-
 ## Stats
 
 ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=kayno0o&show_icons=true&bg_color=1e1e2e&text_color=cdd6f4&title_color=b4befe&border_color=b4befe&border_radius=8) ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kayno0o&layout=compact&bg_color=1e1e2e&text_color=cdd6f4&title_color=b4befe&border_color=b4befe&border_radius=8)
