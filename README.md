@@ -6,8 +6,6 @@ I'm a passionate full stack developer specializing in modern web development.
 My primary tools are **Nuxt 3**, **TailwindCSS**, and **TypeScript**.
 I also enjoy playing with **Go** in my free time.
 
-**Networks**
-
 ## Stats
 
 ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=kayno0o&show_icons=true&bg_color=1e1e2e&text_color=cdd6f4&title_color=b4befe&border_color=b4befe&border_radius=8) ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kayno0o&layout=compact&bg_color=1e1e2e&text_color=cdd6f4&title_color=b4befe&border_color=b4befe&border_radius=8)
