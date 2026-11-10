@@ -1,41 +1,37 @@
-# Hi there, I'm Kévyn! 👋
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.png">
+  <img alt="Kévyn, full-stack developer in Bordeaux, France, building kay, a Bun web framework, and a devlog about it" src="assets/banner-light.png" width="830">
+</picture>
 
-## About Me
+I've been coding since middle school, the last four years for a living: large Nuxt and Symfony projects at work, Bun and TypeScript for everything else. Away from the web, I love Godot and build Minecraft mods and tools.
 
-I'm a passionate full stack developer specializing in modern web development.
-My primary tools are **Nuxt 3**, **TailwindCSS**, **TypeScript** and **Symfony**.
-I also enjoy playing with **Go** and **Lua** in my free time.
+## kay
 
-## Stats
+[kay](https://kayjs.kaynooo.fr) is my Bun web framework, because the world clearly needed one more. A `.kay` file is one component, TypeScript fences then a pug-like template. Pages render to plain HTML, only the islands ship JavaScript, and everything is typed down to the template line. It ships its docs as an `llms.txt` and checks that catch what coding agents get wrong. It is still experimental and breaks between minors.
 
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=kayno0o&show_icons=true&bg_color=1e1e2e&text_color=cdd6f4&title_color=b4befe&border_color=b4befe&border_radius=8) ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kayno0o&layout=compact&bg_color=1e1e2e&text_color=cdd6f4&title_color=b4befe&border_color=b4befe&border_radius=8)
+- [kayjs](https://github.com/Kayno0o/kayjs): the framework
+- [kayjs-auth](https://github.com/Kayno0o/kayjs-auth): sign-in with OAuth, passwords, magic links, two-factor and passkeys
+- [kayjs-ui](https://github.com/Kayno0o/kayjs-ui): components styled by one theme: buttons, dialogs, tables, forms, charts
+- [kayjs-mail](https://github.com/Kayno0o/kayjs-mail): mails written as `.kay` components, sent through a queue
 
-## Everything I know and use actively
+## devlog
 
-**Frontend**
+[log.kaynooo.fr](https://log.kaynooo.fr) is where I write about what I build: how it works, what it costs, and the benchmarks behind it.
 
-![Nuxt](https://img.shields.io/badge/Nuxt-3BB371?logo=nuxt.js&logoColor=white) ![Vue](https://img.shields.io/badge/Vue-4FC08D?logo=vue.js&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![Pug](https://img.shields.io/badge/Pug-A86454?logo=pug&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwind-css&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
-<!-- old: ![Sass](https://img.shields.io/badge/Sass-CC6699?logo=sass&logoColor=white) -->
+- [kayjs: fast to run, easy to write](https://log.kaynooo.fr/posts/introducing-kay)
+- [What a web framework costs a coding agent](https://log.kaynooo.fr/posts/coding-agent-bench)
+- [One page in Next.js, Nuxt, Astro, Svelte and Solid](https://log.kaynooo.fr/posts/five-frameworks)
+- [A SvelteKit site, moved to kay](https://log.kaynooo.fr/posts/ported-from-sveltekit)
 
-**Backend**
+The rest, and an [RSS feed](https://log.kaynooo.fr/rss.xml), on the blog.
 
-![API Platform](https://img.shields.io/badge/API%20Platform-3288E6?logo=api-platform&logoColor=white) ![Symfony](https://img.shields.io/badge/Symfony-000000?logo=symfony&logoColor=white) ![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white) ![PHPStan](https://img.shields.io/badge/PHPStan-8C8C8C?logo=php&logoColor=white) ![PHP-CS-Fixer](https://img.shields.io/badge/PHP%20CS%20Fixer-005CFF?logo=php&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white) ![Lua](https://img.shields.io/badge/Lua-2C2D72?logo=lua&logoColor=white)
+## Also
 
-**Databases**
+- [pg-orm](https://github.com/Kayno0o/pg-orm): a typed Postgres ORM on `bun:sql`
+- [eslint](https://github.com/Kayno0o/eslint): my ESLint ruleset, because code should breathe
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?logo=mariadb&logoColor=white)
-<!-- old: ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white) -->
+## What I work with
 
-**Systems**
+![Bun](https://img.shields.io/badge/Bun-10141e?style=flat-square&logo=bun&logoColor=f5b83d) ![TypeScript](https://img.shields.io/badge/TypeScript-10141e?style=flat-square&logo=typescript&logoColor=f5b83d) ![Astro](https://img.shields.io/badge/Astro-10141e?style=flat-square&logo=astro&logoColor=f5b83d) ![SolidJS](https://img.shields.io/badge/SolidJS-10141e?style=flat-square&logo=solid&logoColor=f5b83d) ![Svelte](https://img.shields.io/badge/Svelte-10141e?style=flat-square&logo=svelte&logoColor=f5b83d) ![Vue](https://img.shields.io/badge/Vue-10141e?style=flat-square&logo=vuedotjs&logoColor=f5b83d) ![Nuxt](https://img.shields.io/badge/Nuxt-10141e?style=flat-square&logo=nuxt&logoColor=f5b83d) ![Symfony](https://img.shields.io/badge/Symfony-10141e?style=flat-square&logo=symfony&logoColor=f5b83d) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-10141e?style=flat-square&logo=postgresql&logoColor=f5b83d) ![Godot](https://img.shields.io/badge/Godot-10141e?style=flat-square&logo=godotengine&logoColor=f5b83d) ![Arch Linux](https://img.shields.io/badge/Arch%20Linux-10141e?style=flat-square&logo=archlinux&logoColor=f5b83d)
 
-![Arch Linux](https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=white) ![Linux Mint](https://img.shields.io/badge/Linux%20Mint-87CF3E?logo=linux-mint&logoColor=white)
-<!-- old: ![Debian](https://img.shields.io/badge/Debian-A80030?logo=debian&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white) -->
-
-**Tools & Platforms**
-
-![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnu-bash&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white) ![GitKraken](https://img.shields.io/badge/GitKraken-179287?logo=gitkraken&logoColor=white) ![Bruno](https://img.shields.io/badge/Bruno-F4AA41?logo=bruno&logoColor=black)
-![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white) ![Bun](https://img.shields.io/badge/Bun-000000?logo=bun&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-<!-- old ![Insomnia](https://img.shields.io/badge/Insomnia-5849BE?logo=insomnia&logoColor=white) -->
+Questions and issues on kay are welcome on [its repository](https://github.com/Kayno0o/kayjs/issues), or write to me at contact@kaynooo.fr.
