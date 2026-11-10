@@ -9,10 +9,13 @@ I've been coding since middle school, the last four years for a living: large Nu
 
 [kay](https://kayjs.kaynooo.fr) is my Bun web framework, because the world clearly needed one more. A `.kay` file is one component, TypeScript fences then a pug-like template. Pages render to plain HTML, only the islands ship JavaScript, and everything is typed down to the template line. It ships its docs as an `llms.txt` and checks that catch what coding agents get wrong. It is still experimental and breaks between minors.
 
-- [kayjs](https://github.com/Kayno0o/kayjs): the framework
-- [kayjs-auth](https://github.com/Kayno0o/kayjs-auth): sign-in with OAuth, passwords, magic links, two-factor and passkeys
-- [kayjs-ui](https://github.com/Kayno0o/kayjs-ui): components styled by one theme: buttons, dialogs, tables, forms, charts
-- [kayjs-mail](https://github.com/Kayno0o/kayjs-mail): mails written as `.kay` components, sent through a queue
+[One repository](https://github.com/Kayno0o/kayjs) holds the framework and its libraries:
+
+- [auth](https://github.com/Kayno0o/kayjs/tree/main/packages/auth): OAuth, passwords, two-factor, magic links and bearer tokens on kay sessions
+- [ui](https://github.com/Kayno0o/kayjs/tree/main/packages/ui): dialogs, tables, toasts, forms and more, as `.kay` sources the app compiles as its own
+- [mail](https://github.com/Kayno0o/kayjs/tree/main/packages/mail): mails written as `.kay` components, SMTP from typed env variables, queued sending
+- [cms](https://github.com/Kayno0o/kayjs/tree/main/packages/cms): content edited on the page it renders, plus collection screens
+- [ai](https://github.com/Kayno0o/kayjs/tree/main/packages/ai): LLM calls with no SDK, Anthropic or OpenAI-compatible, replies streamed into the page
 
 ## devlog
 
