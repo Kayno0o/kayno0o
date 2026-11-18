@@ -19,7 +19,7 @@ I've been coding since middle school, and for a living these last four years: la
 
 ## cli
 
-[cli](https://github.com/Kayno0o/cli) is the toolbox my coding agents work with: small Bun CLIs, each on npm as `@kaynooo/cli-<name>`. `check` runs a repo's lint, types and tests and prints only what failed. `db` runs read-only SQL without ever showing the credentials, `ev` edits .env files with the values masked, and `guard` holds every Bash call an agent makes to a set of safety rules.
+[cli](https://github.com/Kayno0o/cli) is a set of small Bun CLIs, each on npm as `@kaynooo/cli-<name>`, made for my coding agents and for me. Agents get short, safe output: `check` runs a repo's lint, types and tests and prints only what failed, `db` runs read-only SQL without ever showing the credentials, and `guard` holds every Bash call they make to a set of safety rules. At the terminal, the same tools turn into pickers and readable output: `j` picks a script of the repo and runs it, `gb` a branch to switch to, `dx` a compose service to open a shell in, and `view` shows a markdown file or a diff in colour, paged when long.
 
 ## devlog
 
