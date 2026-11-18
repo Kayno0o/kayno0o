@@ -7,7 +7,7 @@ I've been coding since middle school, and for a living these last four years: la
 
 ## kay
 
-[kay](https://kayjs.kaynooo.fr) is my Bun web framework, because the world clearly needed one more. A `.kay` file is one component: TypeScript fences, then a pug-like template. Pages render to plain HTML, only the islands ship JavaScript, and types reach down to the template line. Its docs ship as an `llms.txt`, with checks that catch what coding agents get wrong. It is still experimental and breaks between minors.
+[kay](https://kayjs.kaynooo.fr) is my Bun web framework, because the world clearly needed one more (/s). A `.kay` file is one component: TypeScript fences, then a pug-like template. Pages render to plain HTML, only the islands ship JavaScript, and types reach down to the template line. Its docs ship as an `llms.txt`, with checks that catch what coding agents get wrong. It is still experimental and breaks between minors.
 
 [One repository](https://github.com/Kayno0o/kayjs) holds the framework and its libraries:
 
